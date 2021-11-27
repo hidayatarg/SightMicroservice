@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{286479D5-6AC8-4CB0-AC5D-DA70C3509664}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{A8BB8787-91FC-4FCF-8E3A-DBEECEBC6CF6}"
 EndProject
@@ -16,7 +19,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{6179244D-84CC-47B6-B440-3418D5872B23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Shared", "Shared\FreeCourse.Shared\FreeCourse.Shared.csproj", "{84BD7DCD-4150-4E65-B196-26A1C4E7874F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.Shared", "Shared\FreeCourse.Shared\FreeCourse.Shared.csproj", "{84BD7DCD-4150-4E65-B196-26A1C4E7874F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{9CC7E978-9379-49BA-BB7C-19D84ABA7D62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.IdentityServer", "IdentityServer\FreeCourse.IdentityServer\FreeCourse.IdentityServer.csproj", "{69F96042-1794-43E6-8EDD-ABF3D68056FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +39,10 @@ Global
 		{84BD7DCD-4150-4E65-B196-26A1C4E7874F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84BD7DCD-4150-4E65-B196-26A1C4E7874F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84BD7DCD-4150-4E65-B196-26A1C4E7874F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69F96042-1794-43E6-8EDD-ABF3D68056FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69F96042-1794-43E6-8EDD-ABF3D68056FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69F96042-1794-43E6-8EDD-ABF3D68056FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69F96042-1794-43E6-8EDD-ABF3D68056FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +51,7 @@ Global
 		{A8BB8787-91FC-4FCF-8E3A-DBEECEBC6CF6} = {286479D5-6AC8-4CB0-AC5D-DA70C3509664}
 		{C838AD2C-7C4D-4326-A8F9-1A32FF27B7F5} = {A8BB8787-91FC-4FCF-8E3A-DBEECEBC6CF6}
 		{84BD7DCD-4150-4E65-B196-26A1C4E7874F} = {6179244D-84CC-47B6-B440-3418D5872B23}
+		{69F96042-1794-43E6-8EDD-ABF3D68056FC} = {9CC7E978-9379-49BA-BB7C-19D84ABA7D62}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD1CF012-869D-4495-AF31-464610C9E848}
